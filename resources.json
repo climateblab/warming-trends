@@ -1,0 +1,7 @@
+[
+    "http://puzlet.org/puzlet/js/d3.min.js",
+    "main.html",
+    "main.css",
+    "http://climateblab.github.io/gamsatc/data.coffee",
+    "main.coffee"
+]

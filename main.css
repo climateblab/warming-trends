@@ -1,0 +1,171 @@
+#text {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.left-col {
+    float: left;
+    width: 450px;
+}
+
+.right-col {
+    float: right;
+    width: 450px;
+}
+
+.clear {
+    clear: both;
+}
+
+.firstcharacter {
+    float: left; 
+    color: #903;
+    width: 35px;
+    line-height: 60px;
+    padding: 0px 4px 8px 3px;
+    font-family: Georgia; 
+    font-size: 60px;
+}
+
+.firstword {
+    color: #903;
+    font-size: 18px;
+}
+
+.solution {
+    cursor: pointer;
+    background: #ddf;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*border-bottom: 1px dotted green;*/
+    border-radius: 10px;
+}
+
+#container {
+    font: 13px sans-serif;
+    position: relative;
+    width: 960px;
+    height: 480px;
+    margin: 0 auto;
+    top: 10px;
+    z-index: 10;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+#guide {
+    position: absolute;
+    width: 960px;
+    height: 480px;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    /*border: 2px solid red;*/
+}
+
+
+.label {
+    position: absolute;
+    font-size: 14px;
+    background: transparent;
+}
+
+#label-x {
+    bottom: 88px;
+    left: 435px;
+}
+
+#label-x2 {
+    bottom: 20px;
+    left: 435px;
+}
+
+#label-y {
+    bottom: 280px;
+    left: 25px;
+}
+
+#plot {
+    position: absolute;
+    width: 960px;
+    height:480px;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+}
+
+#intersection {
+    position: absolute;
+    width: 100px;
+    height:80px;
+    top: 20px;
+    right: 5px;
+    background: transparent;
+    /*border: 1px dashed gray;*/
+    opacity: 1;
+    font-size: 14px;
+    color: red;
+}
+
+#equation {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    bottom: 270px;
+    right: 5px;
+    background: transparent;
+    /*border: 1px dashed gray;*/
+    opacity: 1;
+    font-size: 14px;
+    color: green;
+}
+
+.guideline {
+    fill: none;
+    stroke: red;
+    stroke-width: 4;
+    stroke-dasharray: 10, 10;
+    shape-rendering: crispEdges;
+    opacity: 0.5;
+}
+
+.modelline {
+    fill: none;
+    stroke: green;
+    stroke-width: 2;
+    /*shape-rendering: crispEdges;*/
+}
+
+.modelcircle {
+    fill: green;
+    stroke: green;
+    stroke-width: 1;
+    /*shape-rendering: crispEdges;*/
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+circle,
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #fff;
+  fill-opacity: .2;
+  cursor: move;
+}
+

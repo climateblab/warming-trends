@@ -1,0 +1,84 @@
+<div id="text">
+
+  <h2>Space math: global warming trends</h2>
+
+  <div class="left-col">
+
+    <span class="firstcharacter">1</span> 
+    <span class="firstword">*Data*</span> A combination of hundreds of
+    climate studies have traced changes in the average temperature of
+    Earth since before the
+    [http://en.wikipedia.org/wiki/Industrial_Revolution,Industrial
+    Revolution].  The plot below shows the changes since 1880
+    <span style="cursor: pointer;background:#dfd;padding-left:
+		 5px;padding-right: 5px;border-radius:10px;"
+		 class="pz_text" ref="data_note">info</span>.
+    
+  </div>
+ 
+  <div class="pz_note" id="data_note">
+
+    The global mean land-ocean temperature is shown on the vertical
+    axis.  The temperture is *relative* to the average temperature for
+    the period 1951-1980.
+
+    Time is shown in two equivalent horizontal axes. The upper axis is
+    simply the date in years. The lower axis is the time *relative to
+    1960* in decades.
+
+    To dig into the raw data see [b00hq,this blab].
+  
+  </div> 
+ 
+  <div class="right-col"> 
+
+    <span class="firstcharacter">2</span> 
+    <span class="firstword">*Model*</span> The temperature after 1960
+    can be modelled by a line $T(x) = ax + b$, where $x$ is the number
+    of *decades* since 1960. In the plot you can drag the green
+    circles to try different slopes ($a$) and intercepts ($b$).
+    
+  </div> 
+ 
+  <div class="clear" style="margin-bottom: 10px;"></div>
+ 
+  <div id="container">
+    <div id="plot"></div>
+    <div id="equation"></div>
+    <div id="intersection"></div>
+    <div id="label-x" class="label">Date (year)</div>
+    <div id="label-x2" class="label">$x$ (decades)</div>
+    <div id="label-y" class="label">$T(x)$ <br></br> <span class="deg"></span>C </div>
+    <div id="guide"></div>
+  </div>
+
+  <div style="margin-top: 10px;">__Best viewed with Chrome or Safari.__</div>
+
+  <div class="clear" style="margin-bottom: 20px;"></div>
+
+  <div class="left-col">
+
+    <span class="firstcharacter">3</span> 
+    <span class="firstword">*Example*</span> Consider $x=0$ on the
+    lower horizontal scale. Here $T=0.05$---meaning the world was
+    0.05 <span class="deg"></span>C warmer than its average from
+    1951-1980. Drag the dashed lines to confirm, or
+    <span id="example" class="solution">click to show</span>.
+
+  </div>
+
+  <div class="right-col">
+
+    <span class="firstcharacter">4</span> 
+    <span class="firstword">*Problems*</span> (1) By dragging the
+    circles, demonstrate the model $T(x)=0.1x+0.05$.
+    <span id="solution1" class="solution">click for solution</span>
+    (2) What does it predict for the temperature in
+    2050? <span id="solution2" class="solution">click for
+    solution</span>
+
+  </div>
+
+</div>
+
+
