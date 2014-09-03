@@ -9,7 +9,8 @@ char "percent", "#37"
 char "equals", "#61"
 
 # Import raw data
-data = (y: y, t: t for y, t of $blab.gamsatc)
+raw = $blab.resources.getJSON "http://climateblab.github.io/gamsatc/data.json"
+data = (y: y, t: t for y, t of raw)
 
 class d3Object
 
