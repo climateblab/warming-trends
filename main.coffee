@@ -9,7 +9,8 @@ char "percent", "#37"
 char "equals", "#61"
 
 # Import raw data
-raw = $blab.resources.getJSON "http://climateblab.github.io/gamsatc/data.json"
+raw = $blab.resource "gamsatc_data"#;
+
 data = (y: y, t: t for y, t of raw)
 
 class d3Object
@@ -45,7 +46,7 @@ class Guide extends d3Object
             .attr("id", "guide")
 
         @obj.on("click", null)  # Clear any previous event handlers.
-        @obj.on("click", => @click())
+        #@obj.on("click", => @click())
         d3.behavior.drag().on("drag", null)  # Clear any previous event handlers.
 
         @space = @obj.append('g')
